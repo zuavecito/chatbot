@@ -1,0 +1,98 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey", "greetings"],
+    "bot_response": "Hello! How can I assist you today?",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["good morning", "morning"],
+    "bot_response": "Good morning! Hope you're having a great day!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["good night", "night"],
+    "bot_response": "Good night! Sleep well!",
+    "required_words": []
+  },
+  {
+    "response_type": "farewell",
+    "user_input": ["goodbye", "bye", "see you", "later"],
+    "bot_response": "Goodbye! Take care!",
+    "required_words": []
+  },
+  {
+    "response_type": "small_talk",
+    "user_input": ["how are you", "what's up", "how's it going"],
+    "bot_response": "I'm just a bot, but I'm doing great! Thanks for asking.",
+    "required_words": ["how", "you"]
+  },
+  {
+    "response_type": "small_talk",
+    "user_input": ["what are you doing", "what's happening", "what's up"],
+    "bot_response": "I'm here to chat with you! What can I help with?",
+    "required_words": ["what"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "w", "learn", "python", "coding", "programming"],
+    "bot_response": "Start by checking out free resources online, like Codecademy or FreeCodeCamp!",
+    "required_words": ["learn", "python"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "do", "i", "make", "a", "website"],
+    "bot_response": "You can use tools like HTML, CSS, and JavaScript! Would you like me to suggest tutorials?",
+    "required_words": ["make", "website"]
+  },
+  {
+    "response_type": "help",
+    "user_input": ["help", "assist", "support"],
+    "bot_response": "Sure! Tell me what you need help with, and I'll do my best!",
+    "required_words": ["help"]
+  },
+  {
+    "response_type": "fun_fact",
+    "user_input": ["tell", "me", "a", "fun", "fact"],
+    "bot_response": "Did you know? Honey never spoils! Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3000 years old and still edible.",
+    "required_words": ["fun", "fact"]
+  },
+  {
+    "response_type": "fun_fact",
+    "user_input": ["do", "you", "know", "something", "interesting"],
+    "bot_response": "Here's something interesting: Octopuses have three hearts, and two of them stop beating when they swim!",
+    "required_words": ["interesting"]
+  },
+  {
+    "response_type": "personal",
+    "user_input": ["what", "is", "your", "name"],
+    "bot_response": "I'm your friendly chatbot, here to help you!",
+    "required_words": ["your", "name"]
+  },
+  {
+    "response_type": "personal",
+    "user_input": ["where", "are", "you", "from"],
+    "bot_response": "I live in the digital world, wherever you need me!",
+    "required_words": ["where", "from"]
+  },
+  {
+    "response_type": "personal",
+    "user_input": ["what", "is", "your", "purpose"],
+    "bot_response": "I'm here to chat, answer your questions, and keep you company!",
+    "required_words": ["your", "purpose"]
+  },
+  {
+    "response_type": "joke",
+    "user_input": ["tell", "me", "a", "joke"],
+    "bot_response": "Why do skeletons not fight each other? They do not have the guts!",
+    "required_words": ["joke"]
+  },
+  {
+    "response_type": "joke",
+    "user_input": ["make", "me", "laugh"],
+    "bot_response": "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "required_words": ["laugh"]
+  }
+]
